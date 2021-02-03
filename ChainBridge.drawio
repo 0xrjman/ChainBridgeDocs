@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T09:30:37.870Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="yCD2B823ilRxDl4cFR6H" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T16:53:24.406Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="EkY-vw7HYFlJEJCeQEZ9" version="14.2.9" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="4029" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,16 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1I83KsjmfCGvxVB3o9AE-78" value="Erc20 Contract" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="542" width="160" height="86" as="geometry" />
+          <mxGeometry x="20" y="542" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1I83KsjmfCGvxVB3o9AE-79" value="Erc20 Handler Contract" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1I83KsjmfCGvxVB3o9AE-78" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1I83KsjmfCGvxVB3o9AE-80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="1I83KsjmfCGvxVB3o9AE-78" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="1I83KsjmfCGvxVB3o9AE-81" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1I83KsjmfCGvxVB3o9AE-78" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1I83KsjmfCGvxVB3o9AE-83" value="Relayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="770" width="160" height="86" as="geometry" />
@@ -169,21 +166,6 @@
         </mxCell>
         <mxCell id="XAeKICQX4TilCshrafWl-18" value="setResource" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XAeKICQX4TilCshrafWl-17" vertex="1" connectable="0">
           <mxGeometry x="0.1736" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XAeKICQX4TilCshrafWl-23" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="1I83KsjmfCGvxVB3o9AE-79" target="1I83KsjmfCGvxVB3o9AE-88" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="540" as="sourcePoint" />
-            <mxPoint x="140" y="490" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-50" y="581" />
-              <mxPoint x="-50" y="354" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XAeKICQX4TilCshrafWl-24" value="setBurnable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XAeKICQX4TilCshrafWl-23" vertex="1" connectable="0">
-          <mxGeometry x="0.2163" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
